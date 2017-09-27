@@ -1,0 +1,19 @@
+body {
+	background-color: lightblue;
+}
+
+h1{
+	font-family: arial;
+	color: maroon;
+}
+p{
+	color: maroon;
+}
+
+h3 {
+	font-family: arial;
+	color: green;
+}
+ul {
+	color: green
+}
