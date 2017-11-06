@@ -1,0 +1,21 @@
+body {
+	background-color: green;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+.hidden {
+  font-size: 50px;
+  visibility: hidden;
+  background: red;
+  border: 10px dotted blue;
+  padding: 10px;
+}
+.hidden:hover {
+  visibility: visible;
+}
+
+.visible {
+  border: 1px solid black;
+  visibility: visible;
+}
