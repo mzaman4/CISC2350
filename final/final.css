@@ -1,0 +1,152 @@
+body {
+	font-family: 'Black Ops One', cursive;
+    background-image: url(images/camo.jpg);
+    background-color: green;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size:25px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 22px 92px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gold;
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 45px;
+    color: black;
+}
+
+.acc {
+    color: black;
+    padding-top: 380px;
+}
+
+.headings {
+    color: black;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.top {
+    display: inline-block;
+    height: 200px;
+    width: 623.5px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.score {
+    border-style: solid;
+    border-color: gold; 
+    height: 400px;
+    width: 800px;
+}
+
+.improve {
+    border-style: solid;
+    border-color: gold;
+    color: black;
+}
+
+.self {
+    float: right;
+    border: solid;
+    border-color: gold;
+    width: 358px;
+    height: 394px;
+}
+
+.bio {
+    padding-left: 375px;
+}
+
+.chart {
+    padding-left: 515px;
+}
+
+.gall {
+    height: 300px;
+    width: 443.5px;
+    border: solid;
+    border-color: gold;
+}
+
+.gall2 {
+    height: 300px;
+    width: 350px;
+    border: solid;
+    border-color: gold;
+}
+
+.gall3 {
+    height: 315px;
+    width: 560px;
+    border: solid;
+    border-color: gold;
+}
+
+.vids {
+    border-style: solid;
+    border-color: gold;
+}
+/*Transition effect*/
+#cf img {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    animation-duration: 17s;
+    animation-direction: alternate;
+    position: absolute;
+}
+
+#cf img:nth-of-type(1) {
+    animation-delay: 17s;
+}
+
+#cf img:nth-of-type(2) {
+    animation-delay: 11s;
+}
+
+#cf img:nth-of-type(3) {
+    animation-delay: 5s;
+}
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}   
