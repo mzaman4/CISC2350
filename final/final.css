@@ -1,11 +1,11 @@
 body {
-	font-family: 'Black Ops One', cursive;
+    font-family: 'Black Ops One', cursive;
     background-image: url(images/camo.jpg);
     background-color: green;
 }
 
 p {
-    color: black;
+    color: white;
     background-color: green;
 }
 
@@ -37,16 +37,16 @@ li a:hover {
 
 .heading{
     font-size: 45px;
-    color: black;
+    color: white;
 }
 
 .acc {
-    color: black;
+    color: white;
     padding-top: 380px;
 }
 
 .headings {
-    color: black;
+    color: white;
 }
 
 .logo {
@@ -71,7 +71,7 @@ li a:hover {
 .improve {
     border-style: solid;
     border-color: gold;
-    color: black;
+    color: white;
 }
 
 .self {
